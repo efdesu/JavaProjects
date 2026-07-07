@@ -25,7 +25,7 @@ public class MadLibGame {
         if(isHuman){
             kind = "human";
         } else {
-            System.out.println("I am a ... .");
+
             System.out.print("Enter a kind: ");
             scanner.nextLine();
             kind = scanner.nextLine();
@@ -34,7 +34,7 @@ public class MadLibGame {
         System.out.println(" ");
 
         System.out.println("It was a/an " + adjective + " November day.");
-        System.out.println("I woke up at " + time + " a.m.");
+        System.out.println("I woke up at " + time + " a.m. / p.m.");
         System.out.println("I ate " + number + " egg(s).");
         System.out.println("I am a " + kind);
 
